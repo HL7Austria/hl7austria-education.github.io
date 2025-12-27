@@ -1,23 +1,91 @@
-# hl7austria-education.github.io
-Links and Infos to how you can Educate yourself on HL7 standards in Austria.
+# HL7 Austria Education
 
-## DICOM
-TBD 
+This is a Jekyll-powered static website providing links and information to help you educate yourself on HL7 standards in Austria.
 
-## CDA
-TBD 
+## Live Site
 
-## SNOMED CT
-TBD 
+Visit the live site at: [https://hl7austria.github.io/hl7austria-education.github.io/](https://hl7austria.github.io/hl7austria-education.github.io/)
 
-## FHIR
-| Thema    | Kategorie | Anbieter | Anmeldung / Anfrage | Zeitraum |
-| -------- | ------- |  ------- | ------- | ------- |
-| FHIR Grundlagenkurs | Zertifizierung |  Technikum Wien Academy  | Online Anmeldung über https://academy.technikum-wien.at/zertifizierungen/hl7-fhir-grundlagenkurs/    |  2x jährlich für je 6 Wochen (Start im März und im Oktober)   |
-| FHIR Intermediate | Zertifizierung |  Technikum Wien Academy  | Online Anmeldung über TBD    |  2x jährlich für je 6 Wochen (Start im März und im Oktober)   |
-| FHIR Starter | Workshop |  HL7 Austria  | Anmeldung im Zuge der HL7 Jahrestagung über https://hl7.at/events |  1x jährlich im März  |
-| FHIR Arsonists | Workshop |  HL7 Austria  | Anmeldung im Zuge der HL7 Jahrestagung über https://hl7.at/events |  1x jährlich im März  |
-| Logic on FHIR (CQL, CDS Hooks) | Workshop |  HL7 Austria  | Anmeldung im Zuge der HL7 Jahrestagung über https://hl7.at/events |  1x jährlich im März  |
-| Implementation Guide Infrastructure | Workshop |  HL7 Austria  | Anmeldung im Zuge der HL7 Jahrestagung über https://hl7.at/events |  1x jährlich im März  |
-| Folien von Workshops / Vorträgen der HL7 Jahrestagung | Unterlagen |  HL7 Austria  | Confluence User (für HL7 Austria Mitglieder) - https://hl7at.atlassian.net/wiki/spaces/OBD/pages/461176842/HL7+DICOM+Austria+Jahrestagung+2025+-+Pr+sentationen | - |
-| Auf Anfrage | In-House Schulungen |  TBD: konkrete Personen  |  Anfrage an training@hl7.at | - |
+## About This Site
+
+This website provides educational resources and training information for various healthcare standards used in Austria, including:
+
+- **DICOM** - Digital Imaging and Communications in Medicine
+- **CDA** - Clinical Document Architecture
+- **SNOMED CT** - Systematized Nomenclature of Medicine - Clinical Terms
+- **FHIR** - Fast Healthcare Interoperability Resources
+
+## Local Development
+
+To run this site locally:
+
+### Prerequisites
+
+- Ruby (version 2.5 or higher)
+- RubyGems
+- Jekyll and Bundler gems
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/HL7Austria/hl7austria-education.github.io.git
+   cd hl7austria-education.github.io
+   ```
+
+2. Install Jekyll and dependencies:
+   ```bash
+   gem install bundler jekyll
+   bundle install
+   ```
+
+3. Run the Jekyll development server:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Open your browser and navigate to `http://localhost:4000`
+
+### Building the Site
+
+To build the site without starting a server:
+
+```bash
+bundle exec jekyll build
+```
+
+The generated site will be placed in the `_site` directory.
+
+## Contributing
+
+To add or update content:
+
+1. Content pages are located in the root directory (e.g., `fhir.md`, `dicom.md`)
+2. Layouts are in the `_layouts` directory
+3. Styling is in `assets/css/style.css`
+4. Navigation is managed in `_includes/navigation.html`
+
+## Site Structure
+
+```
+├── _config.yml           # Jekyll configuration
+├── _includes/            # Reusable components
+│   └── navigation.html   # Site navigation
+├── _layouts/             # Page layouts
+│   ├── default.html      # Base layout
+│   └── page.html         # Content page layout
+├── assets/
+│   └── css/
+│       └── style.css     # Site styling
+├── index.md              # Homepage
+├── dicom.md              # DICOM page
+├── cda.md                # CDA page
+├── snomed-ct.md          # SNOMED CT page
+└── fhir.md               # FHIR page
+```
+
+## Contact
+
+For training inquiries: [training@hl7.at](mailto:training@hl7.at)
+
+For more information about HL7 Austria: [https://hl7.at/](https://hl7.at/)
