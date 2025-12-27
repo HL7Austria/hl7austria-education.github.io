@@ -1,0 +1,11 @@
+<nav class="main-nav">
+  <div class="container">
+    <ul>
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/dicom.html' | relative_url }}" {% if page.url contains 'dicom' %}class="active"{% endif %}>DICOM</a></li>
+      <li><a href="{{ '/cda.html' | relative_url }}" {% if page.url contains 'cda' %}class="active"{% endif %}>CDA</a></li>
+      <li><a href="{{ '/snomed-ct.html' | relative_url }}" {% if page.url contains 'snomed-ct' %}class="active"{% endif %}>SNOMED CT</a></li>
+      <li><a href="{{ '/fhir.html' | relative_url }}" {% if page.url contains 'fhir' %}class="active"{% endif %}>FHIR</a></li>
+    </ul>
+  </div>
+</nav>

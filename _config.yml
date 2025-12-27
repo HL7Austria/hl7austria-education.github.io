@@ -1,0 +1,27 @@
+title: HL7 Austria Education
+description: Links and Infos to how you can Educate yourself on HL7 standards in Austria.
+baseurl: ""
+url: "https://hl7austria.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
