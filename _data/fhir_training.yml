@@ -1,0 +1,63 @@
+- thema: "FHIR Grundlagenkurs"
+  kategorie: "Zertifizierung"
+  anbieter: "Technikum Wien Academy"
+  anmeldung:
+    text: "Online Anmeldung über"
+    url: "https://academy.technikum-wien.at/zertifizierungen/hl7-fhir-grundlagenkurs/"
+  zeitraum: "2x jährlich für je 6 Wochen (Start im März und im Oktober)"
+
+- thema: "FHIR Intermediate"
+  kategorie: "Zertifizierung"
+  anbieter: "Technikum Wien Academy"
+  anmeldung:
+    text: "Online Anmeldung über TBD"
+    url: ""
+  zeitraum: "2x jährlich für je 6 Wochen (Start im März und im Oktober)"
+
+- thema: "FHIR Starter"
+  kategorie: "Workshop"
+  anbieter: "HL7 Austria"
+  anmeldung:
+    text: "Anmeldung im Zuge der HL7 Jahrestagung über"
+    url: "https://hl7.at/events"
+  zeitraum: "1x jährlich im März"
+
+- thema: "FHIR Arsonists"
+  kategorie: "Workshop"
+  anbieter: "HL7 Austria"
+  anmeldung:
+    text: "Anmeldung im Zuge der HL7 Jahrestagung über"
+    url: "https://hl7.at/events"
+  zeitraum: "1x jährlich im März"
+
+- thema: "Logic on FHIR (CQL, CDS Hooks)"
+  kategorie: "Workshop"
+  anbieter: "HL7 Austria"
+  anmeldung:
+    text: "Anmeldung im Zuge der HL7 Jahrestagung über"
+    url: "https://hl7.at/events"
+  zeitraum: "1x jährlich im März"
+
+- thema: "Implementation Guide Infrastructure"
+  kategorie: "Workshop"
+  anbieter: "HL7 Austria"
+  anmeldung:
+    text: "Anmeldung im Zuge der HL7 Jahrestagung über"
+    url: "https://hl7.at/events"
+  zeitraum: "1x jährlich im März"
+
+- thema: "Folien von Workshops / Vorträgen der HL7 Jahrestagung"
+  kategorie: "Unterlagen"
+  anbieter: "HL7 Austria"
+  anmeldung:
+    text: "Confluence User (für HL7 Austria Mitglieder)"
+    url: "https://hl7at.atlassian.net/wiki/spaces/OBD/pages/461176842/HL7+DICOM+Austria+Jahrestagung+2025+-+Pr%C3%A4sentationen"
+  zeitraum: "-"
+
+- thema: "Auf Anfrage"
+  kategorie: "In-House Schulungen"
+  anbieter: "TBD: konkrete Personen"
+  anmeldung:
+    text: "Anfrage an training@hl7.at"
+    url: ""
+  zeitraum: "-"
