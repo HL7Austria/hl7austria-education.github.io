@@ -50,7 +50,7 @@
   kategorie: "Unterlagen"
   anbieter: "HL7 Austria"
   anmeldung:
-    text: "Confluence User (für HL7 Austria Mitglieder) -"
+    text: "Confluence User (für HL7 Austria Mitglieder)"
     url: "https://hl7at.atlassian.net/wiki/spaces/OBD/pages/461176842/HL7+DICOM+Austria+Jahrestagung+2025+-+Pr%C3%A4sentationen"
   zeitraum: "-"
 
