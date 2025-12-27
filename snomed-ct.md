@@ -8,12 +8,25 @@ SNOMED CT (Systematized Nomenclature of Medicine - Clinical Terms) is a comprehe
 
 ### Educational Resources
 
-Information about SNOMED CT educational resources in Austria will be available soon.
+{% if site.data.snomed_training.size > 0 -%}
+The following table provides an overview of SNOMED CT training opportunities available in Austria:
 
-**TBD**
+| Thema    | Kategorie | Anbieter | Anmeldung / Anfrage | Zeitraum |
+| -------- | ------- |  ------- | ------- | ------- |
+{% for training in site.data.snomed_training -%}
+| {{ training.thema }} | {{ training.kategorie }} | {{ training.anbieter }} | {% if training.anmeldung.url != "" %}{{ training.anmeldung.text }} [{{ training.anmeldung.url }}]({{ training.anmeldung.url }}){% else %}{{ training.anmeldung.text }}{% endif %} | {{ training.zeitraum }} |
+{% endfor -%}
+{% else -%}
+Information about SNOMED CT educational resources in Austria will be available soon.
+{% endif -%}
+
+### Contact
+
+For training inquiries, please contact: [training@hl7.at](mailto:training@hl7.at)
 
 ### Related Links
 
-- [SNOMED International](https://www.snomed.org/)
-- [HL7 Austria](https://hl7.at/)
+{% for link in site.data.snomed_links -%}
+- [{{ link.title }}]({{ link.url }})
+{% endfor %}
 
